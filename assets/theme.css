@@ -5,14 +5,11 @@ header,
   height: 100%;
 }
 
-html {
-    background-color: rgba(222, 240, 252, 0.877);
-}
 
 h1 {
-    color: white;
+    color: orangered;
     font-family: 'Cookie', cursive;
-    font-size: 215px !important;
+    font-size: 200px !important;
   }
   
   h5 {
@@ -32,9 +29,6 @@ h1 {
     border-top: 3px solid #fff;
     width: 80px;
   }
-  
-  
-}
 
 * {
     margin: auto;
