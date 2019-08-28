@@ -1,0 +1,111 @@
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+html {
+    background-color: rgba(222, 240, 252, 0.877);
+}
+
+h1 {
+    color: white;
+    font-family: 'Cookie', cursive;
+    font-size: 215px !important;
+  }
+  
+  h5 {
+    color: black;
+    background-color: white;
+    font-family: 'Libre Caslon Text', serif;
+    padding: 3px;
+    font-size: 28px !important;
+  }
+  
+  p {
+      color: black;
+      font-family: 'Libre Caslon Text', serif;
+  }
+  
+  .hr-light {
+    border-top: 3px solid #fff;
+    width: 80px;
+  }
+  
+  
+}
+
+* {
+    margin: auto;
+    box-sizing: border-box;
+  }
+  
+  /* Center website */
+  .main {
+    max-width: 1000px !important;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+  }
+  
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+  .column {
+    width: 100%;
+}
+
+.top-nav-collapse {
+  background-color: #78909c !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #78909c !important;
+  }
+  .column {
+    width: 50%;
+  }
+}
+
