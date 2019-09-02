@@ -2,14 +2,15 @@ html,
 body,
 header,
 .view {
+  width: 100%;
   height: 100%;
 }
 
-
 h1 {
-    color: orangered;
+    color: black;
     font-family: 'Cookie', cursive;
-    font-size: 200px !important;
+    font-size: 150px !important;
+    line-height: 50px !important;
   }
   
   h5 {
@@ -25,6 +26,10 @@ h1 {
       font-family: 'Libre Caslon Text', serif;
   }
   
+#page-title {
+  padding-top: 20px;
+}
+
   .hr-light {
     border-top: 3px solid #fff;
     width: 80px;
@@ -74,6 +79,11 @@ h1 {
     background-color: rgb(255, 255, 255);
     padding: 10px;
   }
+
+img {
+  width: 200px;
+  height: 200px;
+}
   
 @media (max-width: 740px) {
   html,
@@ -87,7 +97,7 @@ h1 {
 }
 
 .top-nav-collapse {
-  background-color: #78909c !important;
+  background-color: #rgb(160, 74, 93) !important;
 }
 
 .navbar:not(.top-nav-collapse) {
@@ -96,7 +106,7 @@ h1 {
 
 @media (max-width: 991px) {
   .navbar:not(.top-nav-collapse) {
-    background: #78909c !important;
+    background: #rgb(160, 74, 93) !important;
   }
   .column {
     width: 50%;
