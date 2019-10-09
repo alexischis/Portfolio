@@ -47,6 +47,7 @@ h1 {
     background-color: white;
     font-family: 'Libre Caslon Text', serif;
     padding: 10px;
+    margin-top: 30px;    
   }
 
 #page-title {
@@ -74,6 +75,7 @@ h1 {
     height: 50%;
     background-color: white;
    margin-top: 20px;
+   margin-bottom: 20px;
   }
   
   .row {
@@ -108,6 +110,11 @@ h1 {
 img {
   width: 150px;
   height: 150px;
+}
+
+.github {
+  width: 20px;
+  height: 20px;
 }
 
   
